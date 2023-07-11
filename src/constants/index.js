@@ -42,11 +42,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Django Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Developer",
     icon: mobile,
   },
   {
@@ -54,9 +54,10 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "python developer",
     icon: creator,
   },
+  
 ];
 
 const technologies = [
@@ -116,54 +117,53 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Full stack Developer",
+    company_name: "katex Power",
     icon: starbucks,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining  katex power blog app using React.js, Django and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "most amaizing part got to build a platform for writting blogs (built a rich text editor).",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Shopify Developer",
+    company_name: "walkersupermarket",
     icon: shopify,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing custom application for the shopify website.",
+      "Collaborating with cross-functional teams including designers and other developers to create high-quality products.",
+      "This included learning Node in 2 weeks.",
+      "meeting some pretty tight deadldines",
+    ],
+  },
+   {
+    title: "Frontend Developer",
+    company_name: "personal projects",
+    icon: tesla,
+    iconBg: "#E6DEDD",
+    date: "Jan 2021 - Feb 2022",
+    points: [
+      "Developing personal web applications using React.js",
+      "Collaborating with  developers remotely to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility for all web applications built.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Backend Developer",
+    company_name: "personal projects",
     icon: meta,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Developing and maintaining web applications using python, Ruby Ruby On Rails, Node and Django.",
+      "working alone in most of the projects",
+      "Building and  Implementing secure API applications",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
@@ -198,28 +198,33 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Katex Power",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to create an accout and ask for authorization for them to be able to write blogs on the platform",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Django",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "css",
         color: "pink-text-gradient",
+      },
+      {
+        link: "web site",
+        color: "red-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/businesskaniki/katex-power-backend.git",
   },
+  
   {
-    name: "Job IT",
+    name: "MTC",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
@@ -228,16 +233,20 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Bootstrap",
         color: "green-text-gradient",
       },
       {
         name: "scss",
         color: "pink-text-gradient",
       },
+      {
+        link: "web site",
+        color: "red-text-gradient",
+      },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/businesskaniki/mtc",
   },
   {
     name: "Trip Guide",
@@ -255,6 +264,10 @@ const projects = [
       {
         name: "css",
         color: "pink-text-gradient",
+      },
+      {
+        link: "web site",
+        color: "red-text-gradient",
       },
     ],
     image: tripguide,
