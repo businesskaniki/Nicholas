@@ -7,6 +7,7 @@ import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import { Link } from "react-router-dom";
 
 const ProjectCard = ({
   index,
@@ -24,7 +25,7 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-1/2'
+        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
       >
         <div className='relative w-full h-[230px]'>
           <img
@@ -58,7 +59,7 @@ const ProjectCard = ({
               key={`${name}-${tag.name}`}
               className={`text-[14px] ${tag.color}`}
             >
-              #{tag.name || tag.link}
+              {tag.name? tag.name: <a target="blank" href={tag.link}>#web site</a>}
 
             </p>
             
